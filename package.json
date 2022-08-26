@@ -1,0 +1,22 @@
+{
+  "name": "es_mocha_study",
+  "version": "1.0.0",
+  "description": "For Esther Study Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Esther",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "puppeteer": "^16.2.0",
+    "puppeteer-chromium-resolver": "^16.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "mocha-puppeteer": "^0.14.0"
+  }
+}
